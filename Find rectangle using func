@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int l,b,res;
+	printf("enter the length and breadth of a rectangle");
+	scanf("%d%d",&l,&b);
+	res=area(l,b);
+	printf("The area of a rectangle is %d",res);
+}
+int area(int length, int breadth)
+{
+	return length*breadth;
+}
